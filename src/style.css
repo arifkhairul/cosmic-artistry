@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.credits
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    z-index: 9999999;
+    padding: 1.25rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.credits a
+{
+    color: inherit;
+}
